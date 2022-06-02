@@ -1,0 +1,11 @@
+/*** GLOBAL ***/
+@import "./global/variables";
+@import "./global/fonts";
+@import "./global/mixins";
+@import "./global/common";
+
+/*** BLOCKS ***/
+@import "./modules/visually-hidden";
+@import "./modules/button";
+@import "./modules/header";
+@import "./modules/footer";

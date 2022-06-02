@@ -1,0 +1,22 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  min-width: 320px;
+  height: 100%;
+  margin: 0;
+  background-color: #ffffff;
+  color: $primaryColor;
+  font-family: $primaryFont;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.71;
+}

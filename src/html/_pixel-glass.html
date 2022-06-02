@@ -1,0 +1,29 @@
+<style>
+   HTML {
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    /* По умолчанию показывается мобильный макет */
+    /* background-image: url("@img/pixelglass/form-320.png"); */
+  }
+
+  /* Планшет */
+  @media (min-width: 768px) {
+    HTML {
+      /* Планшетный макет */
+      /* background-image: url("@img/pixelglass/form-768.png"); */
+    }
+  }
+
+  /* Десктоп */
+  @media (min-width: 1440px) {
+    HTML {
+      /* Десктопный макет */
+      background-image: url("@img/pixelglass/page.png");
+    }
+  }
+</style>
+
+<!-- Берется из node_modules/pixel-glass см. gulp task server -->
+
+<!-- <link href="styles.css" rel="stylesheet">
+<script src="script.js"></script> -->
