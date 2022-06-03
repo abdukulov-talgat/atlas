@@ -23,6 +23,7 @@ body {
 
 .wrapper {
   display: flex;
+  overflow: hidden;
   min-height: 100%;
   flex-direction: column;
 }

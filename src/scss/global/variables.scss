@@ -5,14 +5,10 @@ $containerPadding: 60;
 $containerSidePadding: math.div($containerPadding, 2);
 
 
-$breakpoint992: 991.98px;
-$breakpoint768: 767.98px;
-$breakpoint480: 479.98px;
-
-// $burgerBrekpoint: $breakpoint768;
-// $burgerColor: #ff0000;
-// $burgerActiveColor: #0000ff;
-
+$breakpoint-1230: 1229.98px;
+$breakpoint-992: 991.98px;
+$breakpoint-768: 767.98px;
+$breakpoint-480: 479.98px;
 
 //Fonts
 $primaryFont : "Montserrat", sans-serif;
@@ -21,3 +17,6 @@ $primaryFont : "Montserrat", sans-serif;
 $primaryColor: #000000;
 $secondaryColor: #03283c;
 $specialColor: #ff6200;
+
+//Burger
+$burgerBreakpoint: $breakpoint-992;

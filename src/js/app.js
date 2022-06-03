@@ -1,10 +1,6 @@
-// document.documentElement.classList.remove('no-js');
+document.documentElement.classList.remove('no-js');
 
-// // **************** Burger menu ****************
-// const burger = document.querySelector('.burger');
+import menu from './modules/menu.js';
 
-// burger.addEventListener('click', () => {
-//     burger.classList.toggle('burger--opened');
-//     document.documentElement.classList.toggle('menu--opened')
-// });
 
+menu();
