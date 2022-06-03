@@ -40,7 +40,7 @@
       left: 0;
       background-color: #d9edf8;
       content: "";
-      transform: translateX(4000px);
+      transform: translateX(-4000px);
       transition: all 0.3s ease;
     }
 
@@ -117,7 +117,7 @@
     align-items: stretch;
     background-color: #d9edf8;
     text-align: center;
-    transform: translateX(4000px);
+    transform: translateX(-4000px);
     transition: transform 0.3s ease;
 
     .opened & {
