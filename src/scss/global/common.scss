@@ -30,3 +30,9 @@ body {
 .main {
   flex-grow: 1;
 }
+
+.container {
+  max-width: $containerWidth + $containerPadding + px;
+  padding: 0 $containerSidePadding + px;
+  margin: 0 auto;
+}
