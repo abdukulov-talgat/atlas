@@ -280,10 +280,6 @@
   }
 }
 
-.sub-menu__item {
-
-}
-
 .sub-menu__link {
   display: block;
   padding: 10px 15px;
@@ -313,9 +309,6 @@
   @media (max-width: $burgerBreakpoint) {
     flex-direction: column;
   }
-}
-
-.user-nav__item {
 }
 
 .user-nav__link {
