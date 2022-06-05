@@ -51,6 +51,10 @@ body {
   font-weight: 700;
   line-height: 1.22;
   text-transform: capitalize;
+
+  .section__header--light & {
+    color: #ffffff;
+  }
 }
 
 .section__text {
@@ -59,4 +63,21 @@ body {
   font-size: 16px;
   letter-spacing: 0.3px;
   line-height: 22px;
+
+  .section__header--light & {
+    color: #ffffff;
+  }
+
+  &--larger {
+    font-size: 24px;
+    line-height: 1.5;
+  }
+}
+
+.before-768 {
+  display: block;
+
+  @media (max-width: $breakpoint-768) {
+    display: none;
+  }
 }
