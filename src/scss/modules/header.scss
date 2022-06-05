@@ -8,6 +8,10 @@
   @media (max-width: $burgerBreakpoint) {
     position: static;
   }
+
+  @media (min-width: 992px) {
+
+  }
 }
 
 .head__nav {
