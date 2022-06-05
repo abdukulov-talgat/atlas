@@ -1,0 +1,144 @@
+.offers {
+  padding: 50px 0 70px;
+}
+
+.offers__header {
+  margin-bottom: 50px;
+}
+
+.offers__list {
+  @include reset-list;
+
+  display: grid;
+  justify-content: center;
+  gap: 30px;
+  grid-template-columns: repeat(auto-fit, 300px);
+
+  @media (max-width: $breakpoint-768) {
+    grid-template-columns: auto;
+  }
+}
+
+.offers__link {
+  display: flex;
+  min-height: 100%;
+  flex-direction: column;
+  color: $secondaryColor;
+  outline: 1px solid #e0e5e2;
+  outline-offset: -1px;
+  text-decoration: none;
+
+
+  &:hover,
+  &:focus {
+    .offers__hint {
+      transform: translateX(0);
+    }
+
+    .offers__svg-box svg {
+      transform: rotate(0deg);
+    }
+  }
+
+  &:focus {
+    box-shadow: 0 0 15px 0 rgba(#000000, 0.5);
+  }
+
+  @media (max-width: $breakpoint-768) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media (max-width: $breakpoint-480) {
+    display: flex;
+  }
+}
+
+.offers__img {
+  img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  @media (max-width: $breakpoint-480) {
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+.offers__inner {
+  padding: 15px;
+}
+
+.offers__row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.offers__avatar {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  object-fit: contain;
+}
+
+.offers__title {
+  margin: 0;
+  color: #000000;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.offers__text {
+  margin: 0;
+  color: #000000;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.offers__learn-more {
+  display: flex;
+  overflow: hidden;
+  margin-top: auto;
+
+  @media (max-width: $breakpoint-768) {
+    width: 50%;
+    grid-column: -1 / 1;
+    justify-self: end;
+  }
+
+  @media (max-width: $breakpoint-480) {
+    width: auto;
+  }
+}
+
+.offers__hint {
+  flex-grow: 1;
+  padding: 18px 0 18px 18px;
+  background-color: #d6effd;
+  color: #000000;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: right;
+  transform: translateX(666px);
+  transition: transform 0.3s ease;
+}
+
+.offers__svg-box {
+  display: flex;
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  background-color: #d6effd;
+}
+
+.offers__learn-more svg {
+  transform: rotate(-45deg);
+  transition: transform 0.3s ease;
+}
