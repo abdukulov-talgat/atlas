@@ -1,0 +1,24 @@
+<section class="team">
+  <div class="container">
+    <div class="team__container">
+      <h2 class="team__title">Our team</h2>
+      <p class="team__text">Our team consists of only best talents</p>
+
+      <div class="team__box">
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            @@loop("./team__slide.html", [
+              {"avatar": "@img/team/1.png", "name": "Name Surname", "occupation": "Occupation", "about" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, ultrices lorem nibh eget felis tempus. Fermentum nunc vitae lectus elit. A ultricies dui erat augue lorem nunc elementum. "},
+              {"avatar": "@img/team/2.png", "name": "Name Surname", "occupation": "Occupation", "about" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, ultrices lorem nibh eget felis tempus. Fermentum nunc vitae lectus elit. A ultricies dui erat augue lorem nunc elementum. "},
+              {"avatar": "@img/team/3.png", "name": "Name Surname", "occupation": "Occupation", "about" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, ultrices lorem nibh eget felis tempus. Fermentum nunc vitae lectus elit. A ultricies dui erat augue lorem nunc elementum. "},
+            ])
+          </div>
+         <div class="team__controls">
+          <button class="team__button team__button--prev" type="button"></button>
+          <button class="team__button team__button--next" type="button"></button>
+         </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
