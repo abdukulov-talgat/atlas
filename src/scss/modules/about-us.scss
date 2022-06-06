@@ -1,0 +1,53 @@
+.about-us {
+  position: relative;
+  overflow: hidden;
+  min-height: 918px;
+  padding-top: 405px;
+  background-image: url("@img/macbook.png");
+  background-position: top -78px left calc(50% + 536px);
+  background-repeat: no-repeat;
+
+  @media (max-width: $breakpoint-768) {
+    min-height: 560px;
+    padding-top: 200px;
+    background-position: top 0 left calc(50% + 300px);
+    background-size: 800px;
+  }
+}
+
+.about-us__content {
+  max-width: 535px;
+
+  @media (max-width: $breakpoint-992) {
+    max-width: 50%;
+  }
+}
+
+.about-us__title {
+  margin: 0;
+  margin-bottom: 15px;
+  color: $secondaryColor;
+  font-size: 48px;
+  letter-spacing: 0.1px;
+  line-height: 1;
+  text-transform: capitalize;
+
+  @media (max-width: $breakpoint-768) {
+    font-size: 32px;
+  }
+
+  @media (max-width: $breakpoint-480) {
+    font-size: 28px;
+  }
+}
+
+.about-us__text {
+  margin: 0;
+  font-size: 16px;
+  letter-spacing: 0.3px;
+  line-height: 1.37;
+
+  @media (max-width: $breakpoint-768) {
+    font-size: 14px;
+  }
+}
