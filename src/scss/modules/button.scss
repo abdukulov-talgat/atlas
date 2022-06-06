@@ -26,3 +26,12 @@
     opacity: 0.8;
   }
 }
+
+.button--special {
+  background-color: $specialColor;
+
+  &:hover,
+  &:focus {
+    background-color: color.scale($specialColor, $lightness: 10%);
+  }
+}
