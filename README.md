@@ -1,3 +1,3 @@
-# paymentOs
+# Atlas
 
-## Учебный проект paymentOs. Адаптивный дизайн. HTML + SCSS + GULP
+## Учебный проект Atlas. Адаптивный дизайн. HTML + SCSS + GULP
