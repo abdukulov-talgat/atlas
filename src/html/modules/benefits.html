@@ -1,0 +1,17 @@
+<section class="benefits">
+  <div class="container">
+    <div class="section__header section__header--light section__header--left">
+      <h2 class="section__title">Benefits of Investing with Atlas One</h2>
+      <p class="section__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet, imperdiet mauris nunc viverra ultrices. Donec</p>
+    </div>
+
+    <ul class="benefits__list">
+      @@loop("./benefits__item.html", [
+        {"icon": "lock", "title": "Enhanced Accessibility", "text": "Better accessibility and management as issuers/ investors can track their offerings/trades."},
+        {"icon": "not-stonks", "title": "Lower Transaction Cost", "text": "Lower transaction costs by automizing regulation processes through smart contracts."},
+        {"icon": "products", "title": "New Financial Products", "text": "Allows for the creation of new and innovative financial products."},
+        {"icon": "clock", "title": "Faster Settlement", "text": "Faster settlement times due to a technology driven transaction processes."}
+      ])
+    </ul>
+  </div>
+</section>
