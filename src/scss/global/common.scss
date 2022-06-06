@@ -41,6 +41,12 @@ body {
   max-width: 900px;
   margin: 0 auto;
   text-align: center;
+
+  &--left {
+    max-width: none;
+    margin: 0;
+    text-align: left;
+  }
 }
 
 .section__title {
