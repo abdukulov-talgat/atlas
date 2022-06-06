@@ -61,6 +61,10 @@ body {
   .section__header--light & {
     color: #ffffff;
   }
+
+  @media (max-width: $breakpoint-480) {
+    font-size: 36px;
+  }
 }
 
 .section__text {
