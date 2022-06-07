@@ -91,3 +91,58 @@ body {
     display: none;
   }
 }
+
+.select {
+  min-height: 24px;
+  border: 0;
+  background-color: transparent;
+  color: #b0bdb7;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.71;
+  outline: 0;
+}
+
+/***** Social *****/
+.social {
+  @include reset-list;
+  display: grid;
+  gap: 34px;
+  grid-template-columns: repeat(4, 24px);
+
+  @media (max-width: $breakpoint-768) {
+    gap: 20px;
+  }
+}
+
+.social__link {
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 24px 24px;
+  outline: 0;
+
+  &:hover,
+  &:focus {
+    opacity: 0.6;
+  }
+}
+
+.social__link--facebook {
+  background-image: url("@img/icons/icons.svg#facebook");
+}
+
+.social__link--twitter {
+  background-image: url("@img/icons/icons.svg#twitter");
+}
+
+.social__link--linkedin {
+  background-image: url("@img/icons/icons.svg#linkedin");
+}
+
+.social__link--youtube {
+  background-image: url("@img/icons/icons.svg#youtube");
+}
